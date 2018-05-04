@@ -52,7 +52,7 @@
 }
 
 /*タブレット*/
-@media(max-width:1000px){
+@media all and (max-width:1000px){
  
   .header-contants{
     width:800px;
