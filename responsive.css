@@ -3,7 +3,8 @@
 @media all and (max-width:670px){
 
 .header-contants{
-  width:500px;
+  padding-right:20%;
+  padding-left:20%;
   margin:0 auto;
   }
 
@@ -16,7 +17,9 @@
 }
   
 .main-contants{
-  max-width:400px;
+  padding-right:20%;
+  padding-left:20%;
+  max-width:100%;
   margin: 0 auto;
 }
 
