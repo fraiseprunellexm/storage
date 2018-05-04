@@ -23,6 +23,15 @@
   margin: 0 auto;
 }
 
+  
+.top-wrapper{
+  background-image: url("Photo by rawpixel.com on Unsplash.jpg");
+  max-width:100%;
+  top:0px;
+  position: relative;
+}
+
+
 .description{
   clear:left;
   max-width:100%;
