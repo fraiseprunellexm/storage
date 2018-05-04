@@ -1,0 +1,84 @@
+
+/*スマートフォン*/
+@media all and (max-width:670px){
+
+.header-contants{
+  width:500px;
+  margin:0 auto;
+  }
+
+.menu-icon{
+  display: block;
+  vertical-align: middle;
+  display: inline-block;
+  margin:0px;
+  font-size:30px;
+}
+.main-contants{
+  width:500px;
+  margin: 0 auto;
+}
+
+.description{
+  clear:left;
+  width:100%;
+  margin:0 auto;
+  }
+
+.contants{
+  padding: 0;
+}
+
+.box-text{
+  width:500px;
+  height:300px;
+}
+
+.description-link a{
+  float:right;
+}
+
+.header-list{
+  display: none;
+}
+
+  a .twitter-timeline{
+    clear:right;
+    margin:0 auto;
+  }
+
+}
+
+
+/*
+@media(max-width:1000px){
+  .header-contants{
+    width:800px;
+    margin:0 auto;
+  }
+
+  .main-contants{
+    width:800px;
+  }
+
+
+.contants{
+  width:800px;
+}
+
+.description{
+  clear:left;
+  width:100%;
+    }
+
+.box-text{
+  width:800px;
+}
+
+a .twitter-timeline{
+  clear:right;
+  margin:0 auto;
+}
+
+}
+*/
