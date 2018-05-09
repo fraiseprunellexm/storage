@@ -26,6 +26,7 @@
   background-image: url("Photo by rawpixel.com on Unsplash.jpg");
   max-width:100%;
   top:0px;
+  margin:0 auto;
   position: relative;
 }
 
