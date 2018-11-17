@@ -1,3 +1,179 @@
-.title{
-  color:hotpink
+/* ----------共通のCSS ----------*/
+*{
+  font-family: 'Alegreya Sans SC', "sans-serif";
+    }
+
+body,html{
+  height:100%;
 }
+
+body{
+  margin:0px;
+}
+
+li{
+  list-style:none;
+  float:left;
+  padding:20px;
+  }
+
+/* font style */
+  p{
+    font-size: 15px;
+    color:gray;
+  }
+
+/* link style */
+a:link{color:white;}
+a:visited{color:white;}
+a:hover{
+  color:lightgray;
+  transition: all 0.3s;
+}
+a:active{color:white;}
+a{text-decoration: none;}
+/* ----------共通のCSS ----------*/
+
+
+/* ----------header---------- */
+header{
+  width:100%;
+  position: fixed;
+  top:0px;
+  background-color:rgba(225,154,180,0.9);
+}
+
+.header-contants{
+  width:1000px;
+  margin:0 auto;
+}
+
+.header-title {
+  color:white;
+  font-size:30px;
+  display: inline-block;
+  vertical-align: middle;
+  }
+.header-title h1{
+  font-size:36px;
+}
+.header-list{
+  vertical-align: middle;
+  display: inline-block;
+  margin:0px 40px;
+
+}
+
+.menu-icon{
+  display: none;
+}
+
+/*----------top-wrapper----------*/
+.top-wrapper{
+  background-image: url("Photo by rawpixel.com on Unsplash.jpg");
+  background-size: cover;
+  width:100%;
+  height:100%;
+  top:0px;
+  position: relative;
+}
+
+.top-wrapper h2{
+  position: absolute;
+  bottom:0;
+  right:10px;
+  color:white;
+  font-family: 'Homemade Apple', "cursive";
+  font-size: 45px;
+}
+
+
+.main{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.main-contants{
+  width:1170px;
+  margin:0 auto;
+  border:solid 1px #000;
+  padding-top:20px;
+}
+
+.description{
+  display: inline-block;
+  float:left;
+  border:solid 1px orange;
+  width:50%;
+  padding:20px 20px;
+}
+
+.contants{
+  background-color:rgba(255,255,255,1);
+  width:100%;
+  height:300px;
+  margin:0 auto;
+  display: table;
+  border:solid 1px hotpink;
+    margin-bottom:20px;
+}
+
+.box-text{
+  display: table-cell;
+  text-align: left;
+  line-height: 40px;
+  width:100%;
+  height:100%;
+
+  vertical-align: middle;
+  }
+
+.box-text h2{
+  height:50px;
+  }
+
+.box-text p{
+  height:50%;
+}
+
+ .description-link a{
+  color:lightgray;
+  float: right;
+}
+
+.description-link a:hover{
+ color:lightpink;
+ transition: all 0.5s;
+}
+
+/*----------twitter----------*/
+a.twitter-timeline{
+  display: inline-block;
+  float:right;
+  margin-left: 30px;
+}
+
+/*----------contact-icon----------*/
+.contact-icon{
+  text-align: center;
+}
+
+  .contact-icon a:link{color:rgba(225,154,180,0.9);}
+  .contact-icon a:visited{color:rgba(225,154,180,0.9);}
+  .contact-icon a:hover{
+    color:lightgray;
+    transition: all 0.3s;
+  }
+  .contact-icon a:active{color:rgba(225,154,180,0.9);}
+  .contact-icon a{text-decoration: none;}
+
+
+/*----------footer----------*/
+footer{
+  text-align: center;
+  padding:10px 0px;
+}
+i{
+  padding:20px 10px;
+  font-size:50px;
+}
+
